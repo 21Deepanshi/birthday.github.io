@@ -44,3 +44,14 @@ button{
   font-size: 1.4rem;
   border: none;
 }
+
+@media (min-width: 700px){
+  p{
+    font-size: 2rem;
+  }
+  button{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+}
